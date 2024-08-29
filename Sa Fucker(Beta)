@@ -1,0 +1,711 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local DragFrame = Instance.new("Frame")
+local BackFrame = Instance.new("Frame")
+local edit0 = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local Dashboard = Instance.new("Frame")
+local TimeStop = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local edit = Instance.new("Folder")
+local TextLabel_2 = Instance.new("TextLabel")
+local edit_2 = Instance.new("Frame")
+local VtwKnife = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TsBypass = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Input = Instance.new("TextBox")
+local Values = Instance.new("TextBox")
+local RE = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Health = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local BlockGlitch = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local STWH = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local OniGodMode = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local HgSplash = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local d4cclone = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local CounterStandless = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Dashboard2 = Instance.new("Frame")
+local jotaro = Instance.new("TextButton")
+local P4 = Instance.new("TextButton")
+local diooh = Instance.new("TextButton")
+local dioova = Instance.new("TextButton")
+local shadowdio = Instance.new("TextButton")
+local theworldnew = Instance.new("TextButton")
+local diego = Instance.new("TextButton")
+local edit2 = Instance.new("Folder")
+local TextLabel_3 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+DragFrame.Name = "DragFrame"
+DragFrame.Parent = ScreenGui
+DragFrame.BackgroundColor3 = Color3.fromRGB(19, 20, 24)
+DragFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DragFrame.BorderSizePixel = 0
+DragFrame.Position = UDim2.new(0.0416399613, 0, 0.551685095, 0)
+DragFrame.Size = UDim2.new(0, 401, 0, 20)
+
+BackFrame.Name = "BackFrame"
+BackFrame.Parent = DragFrame
+BackFrame.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+BackFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BackFrame.BorderSizePixel = 0
+BackFrame.Position = UDim2.new(0.00163059612, 0, 2.22802806, 0)
+BackFrame.Size = UDim2.new(0, 400, 0, 200)
+
+edit0.Name = "edit0"
+edit0.Parent = BackFrame
+
+TextLabel.Parent = edit0
+TextLabel.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, -0.125, 0)
+TextLabel.Size = UDim2.new(0, 400, 0, 25)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "JJ'S SA BYPASSER"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+Dashboard.Name = "Dashboard"
+Dashboard.Parent = BackFrame
+Dashboard.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Dashboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dashboard.BorderSizePixel = 0
+Dashboard.Position = UDim2.new(0, 0, 0.149583429, 0)
+Dashboard.Size = UDim2.new(0, 400, 0, 170)
+
+TimeStop.Name = "TimeStop"
+TimeStop.Parent = Dashboard
+TimeStop.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+TimeStop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TimeStop.BorderSizePixel = 0
+TimeStop.Position = UDim2.new(0.126998901, 0, 0.055779133, 0)
+TimeStop.Size = UDim2.new(0, 94, 0, 21)
+TimeStop.Font = Enum.Font.Unknown
+TimeStop.Text = "TimeStop"
+TimeStop.TextColor3 = Color3.fromRGB(255, 255, 255)
+TimeStop.TextSize = 14.000
+
+UICorner.Parent = TimeStop
+
+edit.Name = "edit"
+edit.Parent = Dashboard
+
+TextLabel_2.Parent = edit
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.252499998, 0, -0.175980508, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 29)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Common"
+TextLabel_2.TextColor3 = Color3.fromRGB(178, 183, 187)
+TextLabel_2.TextSize = 20.000
+
+edit_2.Name = "edit"
+edit_2.Parent = edit
+edit_2.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+edit_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+edit_2.BorderSizePixel = 0
+edit_2.Position = UDim2.new(0, 0, -0.00588235306, 0)
+edit_2.Size = UDim2.new(0, 400, 0, 1)
+
+VtwKnife.Name = "Vtw Knife"
+VtwKnife.Parent = Dashboard
+VtwKnife.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+VtwKnife.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VtwKnife.BorderSizePixel = 0
+VtwKnife.Position = UDim2.new(0.125999063, 0, 0.463809371, 0)
+VtwKnife.Size = UDim2.new(0, 95, 0, 21)
+VtwKnife.Font = Enum.Font.Unknown
+VtwKnife.Text = "Vtw Knife"
+VtwKnife.TextColor3 = Color3.fromRGB(255, 255, 255)
+VtwKnife.TextSize = 14.000
+
+UICorner_2.Parent = VtwKnife
+
+TsBypass.Name = "Ts Bypass"
+TsBypass.Parent = Dashboard
+TsBypass.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+TsBypass.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TsBypass.BorderSizePixel = 0
+TsBypass.Position = UDim2.new(0.126998901, 0, 0.260605395, 0)
+TsBypass.Size = UDim2.new(0, 95, 0, 21)
+TsBypass.Font = Enum.Font.Unknown
+TsBypass.Text = "Ts Bypass"
+TsBypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+TsBypass.TextSize = 14.000
+
+UICorner_3.Parent = TsBypass
+
+Input.Name = "Input"
+Input.Parent = Dashboard
+Input.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+Input.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Input.BorderSizePixel = 0
+Input.Position = UDim2.new(0.00249999994, 0, 0.643256664, 0)
+Input.Size = UDim2.new(0, 399, 0, 15)
+Input.Font = Enum.Font.Unknown
+Input.PlaceholderText = "Put the player name here"
+Input.Text = ""
+Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input.TextSize = 14.000
+
+Values.Name = "Values"
+Values.Parent = Dashboard
+Values.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+Values.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Values.BorderSizePixel = 0
+Values.Position = UDim2.new(0.00249999994, 0, 0.791603744, 0)
+Values.Size = UDim2.new(0, 399, 0, 15)
+Values.Font = Enum.Font.Unknown
+Values.PlaceholderText = "Add the values here"
+Values.Text = ""
+Values.TextColor3 = Color3.fromRGB(255, 255, 255)
+Values.TextSize = 14.000
+
+RE.Name = "RE"
+RE.Parent = Dashboard
+RE.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+RE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RE.BorderSizePixel = 0
+RE.Position = UDim2.new(0.873611152, 0, -0.151778281, 0)
+RE.Size = UDim2.new(0, 40, 0, 20)
+RE.Font = Enum.Font.Unknown
+RE.Text = "RE"
+RE.TextColor3 = Color3.fromRGB(255, 255, 255)
+RE.TextSize = 14.000
+
+UICorner_4.Parent = RE
+
+Health.Name = "Health"
+Health.Parent = Dashboard
+Health.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+Health.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Health.BorderSizePixel = 0
+Health.Position = UDim2.new(0.0250000004, 0, -0.156056479, 0)
+Health.Size = UDim2.new(0, 40, 0, 20)
+Health.Font = Enum.Font.Unknown
+Health.Text = "Heal"
+Health.TextColor3 = Color3.fromRGB(255, 255, 255)
+Health.TextSize = 14.000
+
+UICorner_5.Parent = Health
+
+BlockGlitch.Name = "Block Glitch"
+BlockGlitch.Parent = Dashboard
+BlockGlitch.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+BlockGlitch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BlockGlitch.BorderSizePixel = 0
+BlockGlitch.Position = UDim2.new(0.384498894, 0, 0.055779133, 0)
+BlockGlitch.Size = UDim2.new(0, 94, 0, 21)
+BlockGlitch.Font = Enum.Font.Unknown
+BlockGlitch.Text = "Block Glitch"
+BlockGlitch.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlockGlitch.TextSize = 14.000
+
+UICorner_6.Parent = BlockGlitch
+
+STWH.Name = "STW H"
+STWH.Parent = Dashboard
+STWH.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+STWH.BorderColor3 = Color3.fromRGB(0, 0, 0)
+STWH.BorderSizePixel = 0
+STWH.Position = UDim2.new(0.379498899, 0, 0.260605395, 0)
+STWH.Size = UDim2.new(0, 95, 0, 21)
+STWH.Font = Enum.Font.Unknown
+STWH.Text = "STW H"
+STWH.TextColor3 = Color3.fromRGB(255, 255, 255)
+STWH.TextSize = 14.000
+
+UICorner_7.Parent = STWH
+
+OniGodMode.Name = "Oni God Mode"
+OniGodMode.Parent = Dashboard
+OniGodMode.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+OniGodMode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OniGodMode.BorderSizePixel = 0
+OniGodMode.Position = UDim2.new(0.378499061, 0, 0.463809371, 0)
+OniGodMode.Size = UDim2.new(0, 95, 0, 21)
+OniGodMode.Font = Enum.Font.Unknown
+OniGodMode.Text = "Oni God Mode"
+OniGodMode.TextColor3 = Color3.fromRGB(255, 255, 255)
+OniGodMode.TextSize = 14.000
+
+UICorner_8.Parent = OniGodMode
+
+HgSplash.Name = "Hg Splash"
+HgSplash.Parent = Dashboard
+HgSplash.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+HgSplash.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HgSplash.BorderSizePixel = 0
+HgSplash.Position = UDim2.new(0.636998951, 0, 0.055779133, 0)
+HgSplash.Size = UDim2.new(0, 94, 0, 21)
+HgSplash.Font = Enum.Font.Unknown
+HgSplash.Text = "Hg Splash"
+HgSplash.TextColor3 = Color3.fromRGB(255, 255, 255)
+HgSplash.TextSize = 14.000
+
+UICorner_9.Parent = HgSplash
+
+d4cclone.Name = "d4c clone"
+d4cclone.Parent = Dashboard
+d4cclone.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+d4cclone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+d4cclone.BorderSizePixel = 0
+d4cclone.Position = UDim2.new(0.636998951, 0, 0.260605395, 0)
+d4cclone.Size = UDim2.new(0, 95, 0, 21)
+d4cclone.Font = Enum.Font.Unknown
+d4cclone.Text = "d4c clone"
+d4cclone.TextColor3 = Color3.fromRGB(255, 255, 255)
+d4cclone.TextSize = 14.000
+
+UICorner_10.Parent = d4cclone
+
+CounterStandless.Name = "Counter Standless"
+CounterStandless.Parent = Dashboard
+CounterStandless.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+CounterStandless.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CounterStandless.BorderSizePixel = 0
+CounterStandless.Position = UDim2.new(0.635999024, 0, 0.463809371, 0)
+CounterStandless.Size = UDim2.new(0, 95, 0, 21)
+CounterStandless.Font = Enum.Font.Unknown
+CounterStandless.Text = "Counter"
+CounterStandless.TextColor3 = Color3.fromRGB(255, 255, 255)
+CounterStandless.TextSize = 14.000
+
+UICorner_11.Parent = CounterStandless
+
+Dashboard2.Name = "Dashboard2"
+Dashboard2.Parent = BackFrame
+Dashboard2.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Dashboard2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dashboard2.BorderSizePixel = 0
+Dashboard2.Position = UDim2.new(1.04999995, 0, -0.224999994, 0)
+Dashboard2.Size = UDim2.new(0, 140, 0, 202)
+Dashboard2.Visible = false
+
+jotaro.Name = "jotaro"
+jotaro.Parent = Dashboard2
+jotaro.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+jotaro.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jotaro.BorderSizePixel = 0
+jotaro.Size = UDim2.new(0, 140, 0, 20)
+jotaro.Font = Enum.Font.Unknown
+jotaro.Text = "jotaro"
+jotaro.TextColor3 = Color3.fromRGB(255, 255, 255)
+jotaro.TextSize = 14.000
+
+P4.Name = "P4"
+P4.Parent = Dashboard2
+P4.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+P4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+P4.BorderSizePixel = 0
+P4.Position = UDim2.new(0, 0, 0.143476248, 0)
+P4.Size = UDim2.new(0, 140, 0, 20)
+P4.Font = Enum.Font.Unknown
+P4.Text = "P4"
+P4.TextColor3 = Color3.fromRGB(255, 255, 255)
+P4.TextSize = 14.000
+
+diooh.Name = "diooh"
+diooh.Parent = Dashboard2
+diooh.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+diooh.BorderColor3 = Color3.fromRGB(0, 0, 0)
+diooh.BorderSizePixel = 0
+diooh.Position = UDim2.new(0, 0, 0.286952585, 0)
+diooh.Size = UDim2.new(0, 140, 0, 20)
+diooh.Font = Enum.Font.Unknown
+diooh.Text = "diooh"
+diooh.TextColor3 = Color3.fromRGB(255, 255, 255)
+diooh.TextSize = 14.000
+
+dioova.Name = "dioova"
+dioova.Parent = Dashboard2
+dioova.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+dioova.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dioova.BorderSizePixel = 0
+dioova.Position = UDim2.new(0, 0, 0.423105597, 0)
+dioova.Size = UDim2.new(0, 140, 0, 20)
+dioova.Font = Enum.Font.Unknown
+dioova.Text = "dioova"
+dioova.TextColor3 = Color3.fromRGB(255, 255, 255)
+dioova.TextSize = 14.000
+
+shadowdio.Name = "shadowdio"
+shadowdio.Parent = Dashboard2
+shadowdio.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+shadowdio.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shadowdio.BorderSizePixel = 0
+shadowdio.Position = UDim2.new(0, 0, 0.566581845, 0)
+shadowdio.Size = UDim2.new(0, 140, 0, 20)
+shadowdio.Font = Enum.Font.Unknown
+shadowdio.Text = "shadowdio"
+shadowdio.TextColor3 = Color3.fromRGB(255, 255, 255)
+shadowdio.TextSize = 14.000
+
+theworldnew.Name = "theworldnew"
+theworldnew.Parent = Dashboard2
+theworldnew.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+theworldnew.BorderColor3 = Color3.fromRGB(0, 0, 0)
+theworldnew.BorderSizePixel = 0
+theworldnew.Position = UDim2.new(0, 0, 0.710058272, 0)
+theworldnew.Size = UDim2.new(0, 140, 0, 20)
+theworldnew.Font = Enum.Font.Unknown
+theworldnew.Text = "theworldnew"
+theworldnew.TextColor3 = Color3.fromRGB(255, 255, 255)
+theworldnew.TextSize = 14.000
+
+diego.Name = "diego"
+diego.Parent = Dashboard2
+diego.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+diego.BorderColor3 = Color3.fromRGB(0, 0, 0)
+diego.BorderSizePixel = 0
+diego.Position = UDim2.new(0, 0, 0.853534758, 0)
+diego.Size = UDim2.new(0, 140, 0, 20)
+diego.Font = Enum.Font.Unknown
+diego.Text = "diego"
+diego.TextColor3 = Color3.fromRGB(255, 255, 255)
+diego.TextSize = 14.000
+
+edit2.Name = "edit2"
+edit2.Parent = DragFrame
+
+TextLabel_3.Parent = edit2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 116, 0, 19)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "JJSploit SA Bypass"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Close.Name = "Close"
+Close.Parent = edit2
+Close.BackgroundColor3 = Color3.fromRGB(43, 44, 48)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.912741721, 0, 0, 0)
+Close.Size = UDim2.new(0, 35, 0, 19)
+Close.Font = Enum.Font.Unknown
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 16.000
+
+-- Scripts:
+
+local function AFUC_fake_script() -- TimeStop.LocalScript 
+	local script = Instance.new('LocalScript', TimeStop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local ScriptFrame = script.Parent.Parent.Parent.Parent.BackFrame.Dashboard2
+		ScriptFrame.Visible = not ScriptFrame.Visible
+	end)
+	
+end
+coroutine.wrap(AFUC_fake_script)()
+local function RARWGD_fake_script() -- VtwKnife.LocalScript 
+	local script = Instance.new('LocalScript', VtwKnife)
+
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	local function throwKnife()
+	
+		local targetPosition = mouse.Hit.p
+	
+	
+		local args = {
+			[1] = "Alternate",
+			[2] = "Knife",
+			[3] = targetPosition
+		}
+	
+	
+		game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+	end
+	
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(input)
+	
+		if input.KeyCode == Enum.KeyCode.One then
+	
+			throwKnife()
+		end
+	end)
+end
+coroutine.wrap(RARWGD_fake_script)()
+local function DEFW_fake_script() -- TsBypass.LocalScript 
+	local script = Instance.new('LocalScript', TsBypass)
+
+	while true do
+		local localPlayer = game:GetService("Players").LocalPlayer
+		if localPlayer then
+			local character = localPlayer.Character
+			if character then
+				local partsToToggle = {}
+				local function collectParts(parent)
+					for _, child in ipairs(parent:GetChildren()) do
+						if child:IsA("BasePart") then
+							table.insert(partsToToggle, child)
+						end
+						collectParts(child)
+					end
+				end
+				collectParts(character)
+				local function anchorParts(parts, anchor)
+					for _, part in ipairs(parts) do
+						local args = {
+							[1] = part,
+							[2] = anchor
+						}
+						game:GetService("ReplicatedStorage"):WaitForChild("Anchor"):FireServer(unpack(args))
+					end
+				end
+				anchorParts(partsToToggle, false)
+				local stand = character:FindFirstChild("Stand")
+				if stand then
+					local partsToAnchor = {}
+					collectParts(stand)
+					anchorParts(partsToAnchor, false)
+				else
+					warn("Stand object not found in character")
+				end
+			else
+				warn("Character not found for LocalPlayer")
+			end
+		else
+			warn("LocalPlayer not found")
+		end
+		wait(1) repeating
+	end
+end
+coroutine.wrap(DEFW_fake_script)()
+local function HAEOAUW_fake_script() -- RE.LocalScript 
+	local script = Instance.new('LocalScript', RE)
+
+	local Button = script.Parent
+	local Value = script.Parent.Parent.Values
+	--//Script made by iamhimbro or szxyth
+	Button.MouseButton1Click:Connect(function(Val)
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+	
+end
+coroutine.wrap(HAEOAUW_fake_script)()
+local function PWQA_fake_script() -- Health.LocalScript 
+	local script = Instance.new('LocalScript', Health)
+
+	local Button = script.Parent
+	local Value = script.Parent.Parent.Values
+	--//Script made by iamhimbro or szxyth
+	Button.MouseButton1Click:Connect(function(Val)
+		game.Players.LocalPlayer.Character.Humanoid.Health = script.Parent.Parent.Values.Text
+	end)
+	
+end
+coroutine.wrap(PWQA_fake_script)()
+local function LDXHXOD_fake_script() -- BlockGlitch.LocalScript 
+	local script = Instance.new('LocalScript', BlockGlitch)
+
+	local args = {
+		[1] = "Alternate",
+		[2] = "Block"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+end
+coroutine.wrap(LDXHXOD_fake_script)()
+local function BMAC_fake_script() -- STWH.LocalScript 
+	local script = Instance.new('LocalScript', STWH)
+
+	while true do
+		local args = {
+			[1] = "Alternate",
+			[2] = "STWRTZ",
+			[3] = true
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+		wait(1)
+	end
+end
+coroutine.wrap(BMAC_fake_script)()
+local function YTEA_fake_script() -- OniGodMode.LocalScript 
+	local script = Instance.new('LocalScript', OniGodMode)
+
+	while true do
+		local args = {
+			[1] = "Alternate",
+			[2] = "Dodge"
+		}
+	
+		game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+	
+		wait(0.5)
+	end
+end
+coroutine.wrap(YTEA_fake_script)()
+local function GBRD_fake_script() -- HgSplash.LocalScript 
+	local script = Instance.new('LocalScript', HgSplash)
+
+	wait(1)
+	game.UserInputService.InputBegan:Connect(function(ip, gpe)
+		if not gpe then
+			if ip.KeyCode == Enum.KeyCode.LeftControl then
+				for i = 1,50 do
+					local args = {
+						[1] = "Alternate",
+						[2] = "EmeraldProjectile2",
+						[3] = false,
+						[4] = game.Players.LocalPlayer:GetMouse().Hit
+					}
+					game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(GBRD_fake_script)()
+local function TOYF_fake_script() -- d4cclone.LocalScript 
+	local script = Instance.new('LocalScript', d4cclone)
+
+	local args = {
+		[1] = "Alternate",
+		[2] = "Clone"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+end
+coroutine.wrap(TOYF_fake_script)()
+local function RYZUQU_fake_script() -- CounterStandless.LocalScript 
+	local script = Instance.new('LocalScript', CounterStandless)
+
+	local args = {
+		[1] = "Alternate",
+		[2] = "Counter"
+	}
+	
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local main = replicatedStorage:WaitForChild("Main")
+	local input = main:WaitForChild("Input")
+	
+	while true do
+		input:FireServer(unpack(args))
+		wait(0.5)
+	end
+end
+coroutine.wrap(RYZUQU_fake_script)()
+local function VBFXP_fake_script() -- jotaro.LocalScript 
+	local script = Instance.new('LocalScript', jotaro)
+
+	local args = {
+		[1] = 15,
+		[2] = "jotaro"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(VBFXP_fake_script)()
+local function BCQAQFQ_fake_script() -- P4.LocalScript 
+	local script = Instance.new('LocalScript', P4)
+
+	local args = {
+		[1] = 15,
+		[2] = "P4"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(BCQAQFQ_fake_script)()
+local function PZORCD_fake_script() -- diooh.LocalScript 
+	local script = Instance.new('LocalScript', diooh)
+
+	local args = {
+		[1] = 15,
+		[2] = "diooh"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(PZORCD_fake_script)()
+local function HMSE_fake_script() -- dioova.LocalScript 
+	local script = Instance.new('LocalScript', dioova)
+
+	local args = {
+		[1] = 15,
+		[2] = "dioova"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(HMSE_fake_script)()
+local function VPWWH_fake_script() -- shadowdio.LocalScript 
+	local script = Instance.new('LocalScript', shadowdio)
+
+	local args = {
+		[1] = 15,
+		[2] = "shadowdio"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(VPWWH_fake_script)()
+local function VWENXEB_fake_script() -- theworldnew.LocalScript 
+	local script = Instance.new('LocalScript', theworldnew)
+
+	local args = {
+		[1] = 15,
+		[2] = "theworldnew"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(VWENXEB_fake_script)()
+local function GYXXDXU_fake_script() -- diego.LocalScript 
+	local script = Instance.new('LocalScript', diego)
+
+	local args = {
+		[1] = 15,
+		[2] = "diego"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+end
+coroutine.wrap(GYXXDXU_fake_script)()
+local function MXPJG_fake_script() -- DragFrame.LocalScript 
+	local script = Instance.new('LocalScript', DragFrame)
+
+	local s = script.Parent.Parent.DragFrame
+	s.Draggable = true
+	s.Active = true
+end
+coroutine.wrap(MXPJG_fake_script)()
+local function JIHBQ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Transparent = script.Parent.Parent.Parent.Parent.DragFrame
+		Transparent.Visible = not Transparent.Visible  -- Toggle visibility
+	end)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local Transparent = script.Parent.Parent.Parent.BackFrame
+		Transparent.Visible = not Transparent.Visible  -- Toggle visibility
+	end)
+end
+coroutine.wrap(JIHBQ_fake_script)()
